@@ -1,0 +1,38 @@
+colo slate 
+
+set nu
+set smartindent
+set encoding=utf-8
+set textwidth=300
+set cursorline
+set wildmenu
+set smartcase
+set hlsearch
+set incsearch
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set pastetoggle=<F2>
+
+set nobackup
+set nowritebackup
+set noundofile
+set noswapfile
+
+map <Space> :
+map <Space>w :w!
+map <Space>q :q
+map Q <Nop> 
+
+autocmd Filetype java inoremap sout System.out.println
+autocmd Filetype cpp inoremap sout std::cout
+
+execute pathogen#infect()
+
+"For NerdTree
+map <C-f> :NERDTreeToggle<CR> 
+
+"For fugitive
+set ma
+set diffopt+=vertical
