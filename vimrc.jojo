@@ -30,8 +30,8 @@ autocmd Filetype cpp inoremap sout std::cout
 
 execute pathogen#infect()
 
-"For NerdTree
-map <C-f> :NERDTreeToggle<CR> "C-f is for Ctrl F
+"For NerdTree. I have to put <ESC> because it automatically does :, don't know why.
+map <C-f> :NERDTreeToggle<CR><ESC>
 
 "For fugitive
 set ma
