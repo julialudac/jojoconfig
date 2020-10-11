@@ -27,6 +27,7 @@ map Q <Nop>
 
 autocmd Filetype java inoremap sout System.out.println
 autocmd Filetype cpp inoremap sout std::cout
+filetype plugin on
 
 execute pathogen#infect()
 
