@@ -22,7 +22,7 @@ set noswapfile
 
 map <Space> :
 map <Space>w :w!
-map <Space>q :q!
+map <Space>q :q
 map Q <Nop> 
 
 autocmd Filetype java inoremap sout System.out.println
