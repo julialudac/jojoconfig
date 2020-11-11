@@ -7,6 +7,7 @@ set textwidth=300
 set cursorline
 set wildmenu
 set smartcase
+set ignorecase
 set hlsearch
 set incsearch
 
