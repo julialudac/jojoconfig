@@ -16,6 +16,7 @@ set shiftwidth=4
 set expandtab
 set pastetoggle=<F2>
 set backspace=indent,eol,start
+set ff=unix
 
 set nobackup
 set nowritebackup
