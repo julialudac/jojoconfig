@@ -64,7 +64,12 @@ if [ ! -d vim-fugitive ]; then
 else
     echo "Fugitive already installed"
 fi
-
+if [ ! -d vim-maximizer ]; then
+    echo "Installing Maximizer"
+    git clone https://github.com/szw/vim-maximizer.git
+else
+    echo "Maximizer already installed"
+fi
 
 
 
