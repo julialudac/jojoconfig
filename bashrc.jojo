@@ -1,0 +1,10 @@
+# git commands
+alias ga="git add"
+alias gca="git commit --amend --no-edit"
+alias gc="git commit"
+alias gd="git diff"
+alias gl="git log"
+alias go="git checkout"
+alias gs="git status"
+
+alias lazunk="pushd /mnt/f/myJunk"
