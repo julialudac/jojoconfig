@@ -70,7 +70,12 @@ if [ ! -d vim-maximizer ]; then
 else
     echo "Maximizer already installed"
 fi
-
+if [ ! -d supertab ]; then
+    echo "Installing SuperTab"
+    git clone https://github.com/ervandew/supertab
+else
+    echo "Supertab already installed"
+fi
 
 
 
