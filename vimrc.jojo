@@ -1,7 +1,6 @@
 colo slate 
 
 set nu
-set smartindent
 set encoding=utf-8
 set textwidth=300
 set cursorline
