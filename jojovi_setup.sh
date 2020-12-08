@@ -76,6 +76,11 @@ if [ ! -d supertab ]; then
 else
     echo "Supertab already installed"
 fi
-
+if [ ! -d emmet-vim ]; then
+    echo "Installing Emmet"
+    git clone https://github.com/mattn/emmet-vim.git
+else
+    echo "Emmet already installed"
+fi
 
 
