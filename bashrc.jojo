@@ -1,5 +1,6 @@
 # git commands
 alias ga="git add"
+alias gb="git branch"
 alias gca="git commit --amend --no-edit"
 alias gc="git commit"
 alias gd="git diff"
