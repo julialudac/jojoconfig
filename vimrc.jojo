@@ -16,6 +16,8 @@ set expandtab
 set pastetoggle=<F2>
 set backspace=indent,eol,start
 set ff=unix
+:e ++ff=unix
+:w ++ff=unix
 
 set nobackup
 set nowritebackup
